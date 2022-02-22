@@ -11,54 +11,73 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Rocket Central
+    url: "https://rocketcentral.com/"
+    # location: Dhaka Branch
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Contract Software Engineer
+    start: Sept 2021
+    end: Feb 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Full Stack Development
+    - Configure, design, and devlop apps for internal & external use
+    - Collaborate with other engineers & associate engineers to solve issues
+    - Collaborate with busines & product owners to create stories and make changes needed by the business
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Aperture Labs LLC
+    url: "https://www.aperturelabs.biz/"
   positions:
-  - designation: Software Engineer
-    start: March 2016
+  - designation: Software Engineer 
+    start: Aug 2019
+    end: Aug 2021
+    responsibilities:
+    - Full Stack Development
+    - Configure, design, & develop e-commerce websites with nopCommerce
+    - Design & develope custom plugins for nopCommerce & EpiServer
+    - Design & Develop custom extension for inRiver PIM (Product Information Management)
+
+- company:
+    name: Mercury Marine
+    url: "https://www.mercurymarine.com/en/us/"
+    # location: Nowhere
+    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Teamcenter Implementations Engineer
+    start: January 2019
+    end: July 2019
+    responsibilities:
+    - Collaborate with local & remote team members in developing & executing Teamcenter solutions
+    - Configure teamcenter BMIDE, BOM Mangement, Workflows, Access control, Change Mangement, Dispatcher Configuration, & other Teamcenter Modules
+    - Customize Teamcenter using standard Teamcenter APIs
+    - Troubleshoot Teamcenter technical issues at various levels such as installation, deployment, & configuration
+    - Perform data modeling & data mapping process in assistance with business analysts & solution architects
+
+- company:
+    name: University of Wisconsin Oshkosh
+    url: "https://uwosh.edu/"
+    # location: Nowhere
+    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Web Application Developer
+    start: March 2017
+    end: December 2018
+    responsibilities:
+    - Rewrote the Advising Worksheet, an application for advisors at the UARC (Under Graduate Advising Resource Center) & SSC (Student Success Center)
+    - Created AngularJS directive for developer to accelerate & simplify the process to create multiadd fields to forms
+    - Provided detailed documentation in Confluence for developer to use newly created directives & applications
+
+- company:
+    name: University of Wisconsin Oshkosh
+    url: "https://uwosh.edu/"
+  positions:
+  - designation: Research Assistant
+    start: Jan 2017
     end: May 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Created a program in Python 2 using the NLTK (Natural Language Tool Kit) library to gather dta on articles & create simple summaries on provided articles
