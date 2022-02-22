@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Justin L. Espiritu
   type: website
-  description: Portfolio and personal blog of John Doe.
+  description: Portfolio and personal blog of Justin L. Espiritu
   image: images/author/john.png
   url: https://hugo-toha.github.io
