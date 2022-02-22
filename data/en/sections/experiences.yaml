@@ -11,6 +11,29 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Core Logic
+    url: "https://www.corelogic.com/"
+    # location: Dhaka Branch
+    # company overview
+
+  positions:
+  - designation: Senior Software Engineer
+    start: March 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designs, writes, tests, and implements software features and functions via frontend UIs
+    - Adheres to development processes and product requirements using appropriate examination methods to predict and measure outcome and consequences of design
+    - Reviews functional and technical requirements, raising potential issues and participating energetically in design discussions, consulting with other team members as necessary
+    - Defines accurate estimates of work effort to aid in project planning
+    - Develops and directs software system testing procedures and programming
+    - Promotes application logging and metrics as a first-class component of delivery
+    - Works closely with QA, Product, and customer-facing teams to ensure a high standard of quality and customer focus at all times
+    - Steers and mentors other engineers including junior and interns
+
+
+- company:
     name: Rocket Central
     url: "https://rocketcentral.com/"
     # location: Dhaka Branch
