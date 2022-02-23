@@ -36,8 +36,21 @@ params:
   gitBranch: master
 
   background: "images/site/background.png"
+
+  features:
+    portfolio:
+      enable: true
+    blog: 
+      enable: true
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
   # specify whether you want to write some blog posts or not
-  enableBlogPost: false
+  # enableBlogPost: true
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
