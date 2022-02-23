@@ -85,6 +85,6 @@ projects:
 
 - name: Personal Website
   role: Creator
-  repo: "https://github.com/JuicyJuice1100/portfolioWebsite_Redux"
+  repo: "https://github.com/JuicyJuice1100/PersonalWebsiteRedux"
   summary: Simple Portfolio website.  This current website will be replacing that portfolio website.
   tags: ["personal", "hugo"]
