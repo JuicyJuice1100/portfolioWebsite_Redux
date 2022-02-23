@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-date: 2022-23-02T14:56-05:00
+date: 2022-02-23T14:56:00-06:00
 description: How to get started with planning your wedding
 menu:
   sidebar:
