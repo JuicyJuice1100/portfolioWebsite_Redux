@@ -35,7 +35,7 @@ params:
   gitRepo: https://github.com/JuicyJuice1100/portfolioWebsite_Redux
   gitBranch: master
 
-  background: "images/background.png"
+  background: "/images/site/background.png"
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
 
