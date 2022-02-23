@@ -37,5 +37,10 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experience with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
+
+- name: Hugo
+  logo: /images/sections/skills/hugo.svg
+  summary: "Experience creating static websites with Hugo"
+  url: "https://gohugo.io/"
