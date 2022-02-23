@@ -7,7 +7,7 @@ menu:
     name: Budgeting
     identifier: wedding-budgeting
     parent: wedding-planning
-    weight: 10
+    weight: 20
 tags: ["Wedding", "Tutorial"]
 categories: ["Wedding"]
 ---
