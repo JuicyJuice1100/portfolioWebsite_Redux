@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: Wedding Planning
     identifier: wedding-planning
-    weight: 20
+    weight: 30
 ---
