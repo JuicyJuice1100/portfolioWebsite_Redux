@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://justinlespiritu.com/
 
 languageCode: en-us
 title: "Justin L. Espiritu"
@@ -35,7 +35,7 @@ params:
   gitRepo: https://github.com/JuicyJuice1100/portfolioWebsite_Redux
   gitBranch: master
 
-  background: "/images/site/background.png"
+  background: "images/site/background.png"
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
 
