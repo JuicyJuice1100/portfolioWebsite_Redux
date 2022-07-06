@@ -10,9 +10,6 @@ menu:
 tags: ["Introduction"]
 ---
 
-### What's your bouldering climbing level
-I would say I climb from V5 - V7.
-
 ### Console or PC?
 PC master race baby!!
 
