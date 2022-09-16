@@ -24,7 +24,7 @@ but I honestly if you're looking for something that you want to follow to a T yo
 
 ### Mistakes will happen and that's okay
 
-Don't expect to become an amazing cook over night.  You might make mistakes, bad dishes, and that's okay.  We learn from our mistakes.  
+Don't expect to become an amazing cook overnight.  You might make mistakes, bad dishes, and that's okay.  We learn from our mistakes.  
 I make mistakes all the time.  Cooking is a skill that you practice.  The more you do it the better you'll get.  Keep at it and you'll become a great homecook.
 
 I will post my mistakes, talk about how I can possibly fix it for next time.  
