@@ -10,9 +10,6 @@ menu:
 tags: ["Introduction"]
 ---
 
-### Console or PC?
-PC master race baby!!
-
 ### What's your PC specs
 Currently running a Corsair One a200:
 - CPU: R9 5900X
@@ -41,9 +38,6 @@ Chicken tikka masala.  Simple to make and tastes delicious.
 
 ### Favorite Dish
 Palak paneer.  I'm a huge fan of indian food if you couldn't tell.  I just wish it was easier to make.
-
-### Favorite Destination
-Brugge, Belgium is prob my favorite.  Such a cool tiny place.  Definitely recommend if you get the chance.
 
 ### What's your ethnicity 
 Filipino and Chinese
