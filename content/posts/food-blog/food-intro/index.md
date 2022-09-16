@@ -1,12 +1,11 @@
 ---
-title: Intro
-date: 2022-09-16T14:56:00-06:00
-description: Introduction to Food
+title: "Food Intro"
+description: Introduction to food blog
 menu:
   sidebar:
-    name: Introduction to au-juice
+    name: Food Intro
     identifier: food-intro
-    parent: food
+    parent: food-blog
     weight: 10
 tags: ["Food", "Tutorial"]
 categories: ["Food"]
