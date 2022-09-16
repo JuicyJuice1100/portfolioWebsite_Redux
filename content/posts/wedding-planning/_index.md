@@ -1,8 +1,8 @@
 ---
-title: Wedding Planning
+title: Food (aka au-juice)
 menu:
   sidebar:
-    name: Wedding Planning
-    identifier: wedding-planning
+    name: Food (aka au-juice)
+    identifier: food
     weight: 30
 ---
