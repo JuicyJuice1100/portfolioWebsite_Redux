@@ -1,6 +1,7 @@
 ---
 title: "Food Intro"
 description: Introduction to food blog
+date: 2022-09-20T15:57:43-06:00
 menu:
   sidebar:
     name: Food Intro
