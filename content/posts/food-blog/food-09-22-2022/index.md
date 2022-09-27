@@ -110,6 +110,7 @@ gets cheep box mac & cheese.  We can definitely do better than that, with the sa
 The basics of this is:
 1. Cook Pasta
 2. Make simple white sauce
+3. Halo-Halo (mix-mix)
 
 That is basically what box mac & cheese is but with just a little more effort you can definitely make it taste way better.
 
