@@ -103,7 +103,7 @@ gets cheep box mac & cheese.  We can definitely do better than that, with the sa
 2. Take some of the starchy water from the pasta pot and put some in the sauce pan.  This will help with binding the sauce.  I usually put like ~3-4 table spoons but usually eyeball it.
 3. Time to *halo-halo* (mix-mix) the mac and cheese using your large spoon.  
 4. (Optional) If you want you can add your cooked meats/veggies.
-5. Enjoy your food!
+5. Enjoy your food! (I like to add a good hot sauce with it)
 
 ### Conclusion
 
