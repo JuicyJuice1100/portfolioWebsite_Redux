@@ -1,12 +1,12 @@
 ---
-title: "Food Intro"
+title: "Introduction"
 description: Introduction to food blog
 date: 2022-09-20T15:57:43-06:00
 menu:
   sidebar:
-    name: Food Intro
-    identifier: food-intro
-    parent: food-blog
+    name: Introduction
+    identifier: simple-home-cook-intro
+    parent: simple-home-cook
     weight: 10
 tags: ["Food", "Tutorial"]
 categories: ["Food"]

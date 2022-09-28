@@ -5,8 +5,8 @@ date: 2022-09-21T16:29:54-05:00
 menu:
   sidebar:
     name: Mac & Cheese
-    identifier: food-09-21-2022
-    parent: food-blog
+    identifier: mac-and-cheese
+    parent: simple-home-cook
     weight: 20
 tags: ["Food", "Tutorial"]
 categories: ["Food"]
@@ -92,7 +92,7 @@ gets cheep box mac & cheese.  We can definitely do better than that, with the sa
 
 *While the Pasta is cooking*
 
-1. Start heating up your pan on medium-high heat.  Add butter to the pan.  You don't want to burn the butter but you do want to melt it and get a little brown.  Stir occasionally to keep from burning.
+1. Start heating up your pan on medium-high heat.  Add butter to the pan.  Enough to grease the pan a little.  You don't want to burn the butter but you do want to melt it and get a little brown.  Stir occasionally to keep from burning.
 2. When the butter starts to brown a little add your milk/dairy.  Enough to cover the pasta, you don't need to much, 1 cup max.  Stir a little bit.
 3. When the sauce start to bubble, lower temp to a medium, and add your dried ingredients.
 4. Add salt and pepper for taste. Stir a little bit.
@@ -121,7 +121,7 @@ The only thing about cooking like this is you make more dishes.  I want to modif
 - Pasta
 - Milk
 - Butter
-- Cheese (If you want light use less cheese, if you are a cheese freak add more cheese)
+- Cheese (If you want light use less cheese; if you are a cheese lover add more cheese)
 - Salt
 - Pepper
 
@@ -134,9 +134,9 @@ The only thing about cooking like this is you make more dishes.  I want to modif
 - Large Spoon
 
 1. Boil pasta in salt water for ~10-12 minutes.
-2. While pasta is cooking throw butter in a pan on medium-high heat.
-3. When the butter is melted or starting to slightly brown, add milk/dairy.
-4. Mix in dried spices.
+2. While pasta is cooking throw butter in a pan on medium-high heat.  Only put enough butter to lightly cover the pan.
+3. When the butter is melted or starting to slightly brown, add milk/dairy.  Enough milk to lightly cover the amount of pasta.  A little goes a long way.
+4. Mix in dried spices.  Salt & Pepper for taste.
 5. Reduce till slightly creamy.
 6. Turn heat to low.
 7. Once pasta is cooked, add pasta using slotted spoon or spider.
