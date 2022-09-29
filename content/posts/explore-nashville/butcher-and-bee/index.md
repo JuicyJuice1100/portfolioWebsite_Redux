@@ -7,7 +7,6 @@ menu:
     identifier: butcher-and-bee
     parent: explore-nashville
     weight: 100
-draft: false
 ---
 
 This spot has been on our radar for a while.  Multiple people have recommended it.  Because we're so close we definitely have to give it a try.  Plus my wife didn't want to cook that day.  It was her turn to cook which means she's paying :)
