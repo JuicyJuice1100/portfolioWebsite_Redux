@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Introduction
     identifier: simple-home-cook-intro
-    parent: simple-home-cook
+    parent: simple-yet-satisfying
     weight: 10
 tags: ["Food", "Tutorial"]
 categories: ["Food"]

@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Mac & Cheese
     identifier: mac-and-cheese
-    parent: simple-home-cook
+    parent: simple-yet-satisfying
     weight: 20
 tags: ["Food", "Tutorial"]
 categories: ["Food"]
