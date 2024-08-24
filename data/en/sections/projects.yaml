@@ -31,6 +31,15 @@ projects:
   # timeline: "Jun 2019 - Present"
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
+  summary: Designed and Implemented Push Notifications for Dispatch Mobile using Notifiation Hub
+  tags: ["professional","react", "react native", ".net", "core logic"]
+
+- name: Dispatch
+  # logo: /images/sections/projects/toha.png
+  role: Senior Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
   summary: Created, modified, maintained, and designed Web UI & mobile for Dispatch App
   tags: ["professional","react", "react native", ".net", "core logic"]
 
