@@ -12,14 +12,14 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
 - name: Core Logic
   filter: "core logic"
 - name: Rocket Central
   filter: "rocket central"
 - name: Aperture Labs
   filter: aperture labs
+- name: Professional
+  filter: "professional"
 - name: Personal
   filter: "personal"
 
