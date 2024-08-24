@@ -13,15 +13,15 @@ section:
 skills:
 
 - name: React Native
-  logo: /images/sections/skills/react_icon_24x24.png
+  logo: /images/sections/skills/react_icon.png
   summary: "Experience creating, maintaining, and deploying React Native mobile apps"
   
 - name: React
-  logo: /images/sections/skills/react_icon_24x24.png
+  logo: /images/sections/skills/react_icon.png
   summary: "Experience creating and maintaining React Web Applications"
 
 - name: Fastlane
-  logo: /images/sections/skills/fastlane_icon_24x24.png
+  logo: /images/sections/skills/fastlane_icon.png
   summary: "Experience building and deploying using fastlane"
 
 - name: Angular
