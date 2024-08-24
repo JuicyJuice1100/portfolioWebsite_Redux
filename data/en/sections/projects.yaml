@@ -14,6 +14,8 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
+- name: Core Logic
+  filter: "core logic"
 - name: Rocket Central
   filter: "rocket central"
 - name: Aperture Labs
@@ -23,16 +25,97 @@ buttons:
 
 # your projects
 projects:
+- name: Dispatch
+  # logo: /images/sections/projects/toha.png
+  role: Senior Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, maintained, and designed Web UI & mobile for Dispatch App
+  tags: ["professional","react", "react native", ".net", "core logic"]
+
+- name: Resource Manager
+  # logo: /images/sections/projects/toha.png
+  role: Senior Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, maintained, designed Web UI for Resource Management Web App
+  tags: ["professional","angular", "core logic"]
+
+- name: Checkmate
+  # logo: /images/sections/projects/toha.png
+  role: Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, and designed Web UI updates to the Checkmate App
+  tags: ["professional","angular","rocket central"]
+
 - name: GIS
   # logo: /images/sections/projects/kubernetes.png
-  role: Developer
+  role: Software Engineer
   # timeline: "March 2018 - Present"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Feature Story.  Helped create a custom service api that helps syncronize data between in house applications
-  tags: ["professional", ".Net Core", "rocket central"]
+  tags: ["professional", ".net", "rocket central"]
 
-- name: Engineer On Boarding Repo
+- name: DEI
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Engineer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Created, modified, deployed, and designed Web UI for DEI
+  tags: ["professional", ".net", "rocket central"]
+
+- name: Checkmate
+  # logo: /images/sections/projects/toha.png
+  role: Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, deployed, and designed Web UI for Checkmate App
+  tags: ["professional",".net","rocket central"]
+
+- name: guySupport
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Engineer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Created, modified, deployed, and designed Web UI for guySupport App
+  tags: ["professional", ".net", "rocket central"]
+
+- name: Drive
+  # logo: /images/sections/projects/kubernetes.png
+  role: Software Engineer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Created, modified, deployed, and designed Web UI for Drive App
+  tags: ["professional", ".net", "rocket central"]
+
+- name: Allin Documentation Job
+  # logo: /images/sections/projects/toha.png
+  role: Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, deployed, and designed automation job for Allin Documentation
+  tags: ["professional",".net","rocket central"]
+
+- name: Allin 
+  # logo: /images/sections/projects/toha.png
+  role: Software Engineer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Created, modified, deployed, and designed Web UI for wordpress website
+  tags: ["professional",".net", "wordpress","rocket central"]
+
+- name: Engineer On-Boarding Repo
   # logo: /images/sections/projects/tensorflow.png
   role: Lead Developer
   # timeline: "Jun 2018 - Present"
@@ -46,21 +129,48 @@ projects:
   # timeline: "Jan 2017 - Nov 2017"
   # url: "https://www.example.com"
   summary: Updated custom app that allows users to check & update current NDA with clients.
-  tags: ["professional",".Net Framework", "rocket central"]
+  tags: ["professional",".net", "rocket central"]
 
 - name: Podracer's Engineer Blog
   role: Lead Developer
   summary: Created an internal blog to help update the business and other engineer teams what Podracer's is currently working on.
   tags: ["professional", "hugo", "rocket central"]
 
+- name: Portescap
+  # logo: /images/sections/projects/no-code.png
+  role: Developer
+  # timeline: "Oct 2019 - Dec 2019"
+  # repo: https://github.com/kelseyhightower/nocode
+  # url: "https://www.secura.net/"
+  summary: Created, designed, and cusomized a custom plugin for inRiver platform
+  tags: ["professional", ".net", "inriver", "aperture labs"]
+
+- name: Osborn
+  # logo: /images/sections/projects/no-code.png
+  role: Developer
+  # timeline: "Oct 2019 - Dec 2019"
+  # repo: https://github.com/kelseyhightower/nocode
+  # url: "https://www.secura.net/"
+  summary: Created a custom plugin for inRiver platform
+  tags: ["professional", ".net", "inriver", "aperture labs"]
+
 - name: Secura
   # logo: /images/sections/projects/no-code.png
   role: Developer
   # timeline: "Oct 2019 - Dec 2019"
   # repo: https://github.com/kelseyhightower/nocode
-  url: "https://www.secura.net/"
+  # url: "https://www.secura.net/"
   summary: Helped rewrite and create customization for Secura's front facing application in Epi Server.
-  tags: ["professional", ".Net Core", "aperture labs"]
+  tags: ["professional", ".net", "aperture labs"]
+
+- name: CSP
+  # logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Created, modified, and deployed package for nopCommerce
+  tags: ["professional", ".net", "nopCommerce", "aperture labs"]
 
 - name: Arbor Day Foundation
   # logo: /images/sections/projects/toha.png
@@ -69,13 +179,22 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   url: "https://shop.arborday.org/"
   summary: Helped rewrite and create customization for Arbor Day Foundation e-commerce website.
-  tags: ["professional",".Net Core","aperture labs"]
+  tags: ["professional",".net", "nopCommerce", "aperture labs"]
+
+- name: Advising Worksheet App
+  # logo: /images/sections/projects/toha.png
+  role: Lead Developer
+  # timeline: "Jun 2019 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  # url: "https://shop.arborday.org/"
+  summary: Developed a web app to streamline the advisor form for Advisors at the University of Wisconsin - Oshkosh
+  tags: ["professional","AngularJS","University"]
 
 - name: Wedding Website
   role: Creator
   repo: "https://github.com/JuicyJuice1100/juice-becky-wedding"
   summary: Created our wedding website using Ionic and Angular 9.
-  tags: ["personal", "angular", "ionic"]
+  tags: ["personal", "Angular", "ionic"]
 
 - name: Personal Blog
   role: Creator

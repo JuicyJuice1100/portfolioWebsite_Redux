@@ -11,36 +11,43 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: .Net Core & Framework
-  logo: /images/sections/skills/NET_Core_Logo.png
-  summary: "Experience creating & maintaining .Net Applications"
-  url: "https://golang.org/"
+
+- name: React Native
+  logo: /images/sections/skills/react_icon_24x24.png
+  summary: "Experience creating, maintaining, and deploying React Native mobile apps"
+  
+- name: React
+  logo: /images/sections/skills/react_icon_24x24.png
+  summary: "Experience creating and maintaining React Web Applications"
+
+- name: Fastlane
+  logo: /images/sections/skills/fastlane_icon_24x24.png
+  summary: "Experience building and deploying using fastlane"
 
 - name: Angular
   logo: /images/sections/skills/Angular.png
   summary: "Experience creating & maintaining Angular Applications"
-  url: "https://prometheus.io/"
+
+- name: .Net Core & Framework
+  logo: /images/sections/skills/NET_Core_Logo.png
+  summary: "Experience creating & maintaining .Net Applications"
 
 - name: Azure Devops
   logo: /images/sections/skills/azure-devops.svg
   summary: "Use for project management and deployment"
-  url: "https://azure.microsoft.com/en-us/services/devops/"
-
-- name: Circle CI
-  logo: /images/sections/skills/CircleCI.png
-  summary: "Use for deployments"
-  url: "https://www.docker.com/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as AWS and Azure."
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experience with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
 
 - name: Hugo
   logo: /images/sections/skills/hugo.svg
   summary: "Experience creating static websites with Hugo"
-  url: "https://gohugo.io/"
+
+- name: Circle CI
+  logo: /images/sections/skills/CircleCI.png
+  summary: "Use for deployments"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as AWS and Azure."
