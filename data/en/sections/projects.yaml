@@ -12,10 +12,10 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Core Logic
-  filter: "core logic"
-- name: Rocket Central
-  filter: "rocket central"
+- name: Cotality
+  filter: "cotality"
+- name: Rock Central
+  filter: "rock central"
 - name: Aperture Labs
   filter: aperture labs
 - name: Professional
@@ -25,14 +25,10 @@ buttons:
 
 # your projects
 projects:
-- name: Dispatch
-  # logo: /images/sections/projects/toha.png
-  role: Senior Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Designed and Implemented Push Notifications for Dispatch Mobile using Notifiation Hub
-  tags: ["professional","react", "react native", ".net", "core logic"]
+- name: boulderLeague
+  role: Creator
+  summary: "A mobile application to maintain records of routes and track progress at the rock climbing gym. Leveraged Claude as an AI architectural assistant to rapidly prototype and construct a robust mobile application in Flutter."
+  tags: ["personal", "flutter", "firebase", "claude"]
 
 - name: Dispatch
   # logo: /images/sections/projects/toha.png
@@ -40,8 +36,8 @@ projects:
   # timeline: "Jun 2019 - Present"
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
-  summary: Created, modified, maintained, and designed Web UI & mobile for Dispatch App
-  tags: ["professional","react", "react native", ".net", "core logic"]
+  summary: "Designed and implemented a high-performance mobile application with real-time push notifications. Leveraged AI assistants (Claude, Copilot, Gemini) to architect the notification system and automate CI/CD workflows via Fastlane."
+  tags: ["professional", "react native", ".net", "claude", "copilot", "gemini", "cotality"]
 
 - name: Resource Manager
   # logo: /images/sections/projects/toha.png
@@ -50,7 +46,7 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
   summary: Created, modified, maintained, designed Web UI for Resource Management Web App
-  tags: ["professional","angular", "core logic"]
+  tags: ["professional","angular", "cotality"]
 
 - name: Checkmate
   # logo: /images/sections/projects/toha.png
@@ -59,7 +55,7 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
   summary: Created, modified, and designed Web UI updates to the Checkmate App
-  tags: ["professional","angular","rocket central"]
+  tags: ["professional","angular","rock central"]
 
 - name: GIS
   # logo: /images/sections/projects/kubernetes.png
@@ -68,7 +64,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Feature Story.  Helped create a custom service api that helps syncronize data between in house applications
-  tags: ["professional", ".net", "rocket central"]
+  tags: ["professional", ".net", "rock central"]
 
 - name: DEI
   # logo: /images/sections/projects/kubernetes.png
@@ -77,7 +73,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Created, modified, deployed, and designed Web UI for DEI
-  tags: ["professional", ".net", "rocket central"]
+  tags: ["professional", ".net", "rock central"]
 
 - name: Checkmate
   # logo: /images/sections/projects/toha.png
@@ -86,7 +82,7 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
   summary: Created, modified, deployed, and designed Web UI for Checkmate App
-  tags: ["professional",".net","rocket central"]
+  tags: ["professional",".net","rock central"]
 
 - name: guySupport
   # logo: /images/sections/projects/kubernetes.png
@@ -95,7 +91,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Created, modified, deployed, and designed Web UI for guySupport App
-  tags: ["professional", ".net", "rocket central"]
+  tags: ["professional", ".net", "rock central"]
 
 - name: Drive
   # logo: /images/sections/projects/kubernetes.png
@@ -104,7 +100,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Created, modified, deployed, and designed Web UI for Drive App
-  tags: ["professional", ".net", "rocket central"]
+  tags: ["professional", ".net", "rock central"]
 
 - name: Allin Documentation Job
   # logo: /images/sections/projects/toha.png
@@ -113,7 +109,7 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
   summary: Created, modified, deployed, and designed automation job for Allin Documentation
-  tags: ["professional",".net","rocket central"]
+  tags: ["professional",".net","rock central"]
 
 - name: Allin 
   # logo: /images/sections/projects/toha.png
@@ -122,7 +118,7 @@ projects:
   # repo: https://github.com/hossainemruz/toha
   # url: "https://shop.arborday.org/"
   summary: Created, modified, deployed, and designed Web UI for wordpress website
-  tags: ["professional",".net", "wordpress","rocket central"]
+  tags: ["professional",".net", "wordpress","rock central"]
 
 - name: Engineer On-Boarding Repo
   # logo: /images/sections/projects/tensorflow.png
@@ -131,19 +127,19 @@ projects:
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: Created a repo that streamlined the onboarding process for new engineers.  
-  tags: ["professional", "hugo", "rocket central", "github pages"]
+  tags: ["professional", "hugo", "rock central", "github pages"]
 
 - name: Vendor Docs
   role: Lead Developer
   # timeline: "Jan 2017 - Nov 2017"
   # url: "https://www.example.com"
   summary: Updated custom app that allows users to check & update current NDA with clients.
-  tags: ["professional",".net", "rocket central"]
+  tags: ["professional",".net", "rock central"]
 
 - name: Podracer's Engineer Blog
   role: Lead Developer
   summary: Created an internal blog to help update the business and other engineer teams what Podracer's is currently working on.
-  tags: ["professional", "hugo", "rocket central"]
+  tags: ["professional", "hugo", "rock central"]
 
 - name: Portescap
   # logo: /images/sections/projects/no-code.png
@@ -204,6 +200,11 @@ projects:
   repo: "https://github.com/JuicyJuice1100/juice-becky-wedding"
   summary: Created our wedding website using Ionic and Angular 9.
   tags: ["personal", "Angular", "ionic"]
+
+- name: Portfolio Website
+  role: Creator
+  summary: "Modern, data-driven portfolio and professional resume built using Hugo and Antigravity-assisted development. Features automated PDF generation, premium CSS layouts, and architectural AI integration."
+  tags: ["personal", "hugo", "antigravity"]
 
 - name: Personal Blog
   role: Creator

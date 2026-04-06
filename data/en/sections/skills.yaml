@@ -11,6 +11,14 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: Claude Code
+  summary: "Primary AI architectural assistant for rapid prototyping and full-stack development."
+
+- name: GitHub Copilot
+  summary: "Leveraged for intelligent code completion and pair programming efficiency."
+
+- name: Gemini & Antigravity
+  summary: "Utilized for advanced AI reasoning, complex refactoring, and agentic coding workflows."
 
 - name: React Native
   logo: /images/sections/skills/react_icon.png

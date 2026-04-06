@@ -52,6 +52,10 @@ params:
   # specify whether you want to write some blog posts or not
   # enableBlogPost: true
 
+  customMenus:
+    - name: "Resume"
+      url: "/resume"
+
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
