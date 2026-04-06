@@ -1,0 +1,134 @@
+name: "Justin L. Espiritu"
+title: "Senior Software Engineer"
+website: "https://justinlespiritu.com"
+email: "me@justinlespiritu.com"
+linkedin: "https://linkedin.com/in/justinlespiritu"
+github: "https://github.com/JuicyJuice1100"
+
+skills:
+  - category: "AI & Modern Workflows"
+    items: "Claude Code, GitHub Copilot, Gemini, Antigravity, Prompt Engineering, AI-First Architecture"
+  - category: "Frameworks & Libraries"
+    items: "React Native, React, MUI, Angular 2+, .Net Core, .Net Framework, MVC, Vue, NodeJS"
+  - category: "Languages"
+    items: "TypeScript, JavaScript, C#, HTML/CSS, Python, SQL, Java"
+  - category: "Technologies & Cloud"
+    items: "Azure, Firebase, Fastlane, AWS, Circle CI, Docker, Git, Hugo, Google Analytics"
+  - category: "Databases"
+    items: "CosmosDB, MySQL, Microsoft SQL Server, Firebase"
+
+education:
+  - university: "University of Wisconsin - Oshkosh"
+    degree: "Bachelor of Science"
+    major: "Computer Science (Software Engineering Emphasis)"
+    date: "December 2018"
+
+experience:
+  - company: "Cotality"
+    role: "Senior Software Engineer (AI Pilot & Champions Team)"
+    date: "March 2022 - Present"
+    description: "Spearheading the integration of GenAI workflows into the organization's software development lifecycle."
+    details:
+      - "Hyper-accelerated end-to-end delivery of complex features—spanning planning, architecture, and implementation—reducing average cycle time from 1 week to 1-2 days (a ~75% increase in velocity) via AI-first workflows."
+      - "Pioneered the corporate 'AI Champions' team, driving cross-functional AI adoption and onboarding 20+ engineers to advanced AI assistant tools."
+      - "Engineered fine-tuned models and custom automated workflows to eliminate repetitive engineering tasks and optimize internal DevOps processes."
+      - "Architected and implemented mission-critical features for high-traffic Web UI and Mobile platforms, ensuring strict scalability and performance standards."
+      - "Mentored 5+ junior engineers and interns on modern full-stack practices and AI-enhanced productivity frameworks."
+      - "Collaborated with Product and QA teams to translate ambiguous requirements into actionable, high-standard technical specifications."
+
+  - company: "Rock Central"
+    role: "Software Engineer"
+    date: "September 2021 - 2022"
+    details:
+      - "Configured, designed, and developed full-stack applications for critical internal and external usage."
+      - "Acted as the Subject Matter Expert (SME) across multiple products, handling deep-level support and architecture decisions."
+      - "Collaborated closely with business & product owners to translate business needs into actionable development stories."
+      - "Worked with the 'Guardians of Quality' to help the engineering team create strict coding standards and quality-of-life adjustments."
+      - "Established comprehensive onboarding documentation via a Git Pages repository to drastically streamline new engineer ramp-ups."
+      - "Executed complex production deployments alongside product owners & fellow engineers."
+
+  - company: "Aperture Labs LLC"
+    role: "Software Engineer"
+    date: "August 2019 - August 2021"
+    details:
+      - "Configured, designed, and developed dynamic E-commerce websites utilizing nopCommerce."
+      - "Designed and developed custom integrations and plugins for nopCommerce and EpiServer."
+      - "Built custom data extension models for inRiver PIM to enhance product tracking capabilities."
+
+  - company: "Mercury Marine"
+    role: "Teamcenter Implementations Engineer"
+    date: "January 2019 - July 2019"
+    details: 
+      - "Collaborated with remote and internal team members to execute deep Teamcenter system solutions."
+      - "Configured Teamcenter BMIDE, BOM Management, Workflows, Access control, Change Management, Dispatcher Configuration, and other key modules."
+      - "Troubleshot technical constraints at various levels strictly including installation, deployment, and cloud configuration."
+      - "Performed complex data modeling and data mapping processes in tandem with business analysts and solution architects."
+
+  - company: "University of Wisconsin - Oshkosh"
+    role: "Web Application Developer"
+    date: "March 2017 - December 2018"
+    details:
+      - "Rewrote the Advising Worksheet—an application for advisors at the Under Graduate Advising Resource Center—from Plone to AngularJS to radically streamline the processing of university graduation plans."
+      - "Established reusable AngularJS directives to accelerate and simplify the process of dynamic robust form creation."
+
+  - company: "University of Wisconsin - Oshkosh"
+    role: "Research Assistant"
+    date: "Jan 2017 - May 2017"
+    details:
+      - "Developed a robust NLP application in Python using the Natural Language Tool Kit (NLTK) to gather and generate complex automated text summaries on provided articles."
+
+professional_projects:
+  - name: "Dispatch"
+    tech: "React Native, React, Claude, GitHub Copilot, Gemini, Fastlane, FCM, APNS, .Net Core, CosmosDB"
+    details:
+      - "Leveraged Claude, GitHub Copilot, and Gemini as AI architectural and development assistants to hyper-accelerate the design and implementation of core mobile features."
+      - "Helped automate CI/CD release processes for mobile environments and custom push notification configurations."
+      - "Led the integration and architecture for deploying push notifications securely across iOS and Android ecosystems."
+  - name: "Resource Manager"
+    tech: "Angular, Jasmine, .Net Core, Azure DevOps, SQL"
+    details:
+      - "Led Front-End UI development and automated deployments to multi-tier environments within Azure DevOps."
+      - "Architected Git workflow hooks to automate commit verifications and maintain high code fidelity."
+  - name: "Checkmate"
+    tech: ".Net Framework, jQuery"
+    details:
+      - "Executed massive production deployment migrations effectively strictly leveraging Azure DevOps."
+  - name: "VendorDocs"
+    tech: ".Net Framework"
+    details:
+      - "Authored comprehensive unit tests extending application coverage safely beyond 85%."
+      - "Executed code refactoring of core business logic to seamlessly digest newly structured CSV files over legacy models."
+  - name: "Secura"
+    tech: "Epi Server"
+    details:
+      - "Developed deep admin customizations to provide content updates dynamically safely from the backend ecosystem."
+  - name: "Arbor Day Foundation"
+    tech: "nopCommerce"
+    details:
+      - "Generated custom frontend UI and comprehensive administration dashboards for dynamic E-Commerce platforms."
+      - "Integrated IPGeolocation APIs to automatically track customer localized positions and Google Analytics for business telemetry."
+
+other_projects:
+  - name: "Portfolio Website"
+    tech: "Hugo, Antigravity"
+    description: "Personal portfolio website (https://justinlespiritu.com)"
+    details:
+      - "Architected a high-performance, data-driven portfolio website using Hugo and Antigravity-assisted development."
+      - "Implemented custom, premium resume layouts and automated PDF generation workflows via AI-first engineering."
+  - name: "boulderLeague"
+    tech: "Flutter, Claude, Firebase"
+    details:
+      - "Leveraged Claude as an AI architectural assistant to rapidly prototype and construct a robust mobile application in Flutter."
+      - "Implemented a scalable, real-time database architecture utilizing Firebase to securely maintain user rock climbing routes and track progression metrics."
+  - name: "Wedding Website"
+    tech: "Angular 9, Firebase"
+    description: "Custom frontend interface for wedding guests (https://beckyandjuice2022.netlify.app)"
+  - name: "Dead By Daylight Builds App"
+    tech: "Ionic, Angular, Python"
+    description: "A Progressive Web App allowing users to create & save game builds."
+  - name: "Biggest Loser App"
+    tech: "MYSQL/PHPMyAdmin, PHPUnit"
+    description: "Full-stack web application to compare & track weight loss between users, fully tested via PHPUnit."
+  - name: "Nerdup"
+    tech: "Android Studio, Firebase"
+    description: "Mobile Application structurally backing records, downloads, and notes sharing on Super Smash Bros players."

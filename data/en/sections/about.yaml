@@ -8,14 +8,14 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Senior Software Engineer
+designation: Senior Software Engineer (AI Pilot & Champions Team)
 # your company information
 company:
-  name: CoreLogic
-  url: "https://www.corelogic.com/"
+  name: Cotality
+  url: "https://cotality.com/"
 
-# your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# link to the interactive HTML resume page
+resume: "/resume"
 
 # a summary about you
 summary: ''

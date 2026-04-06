@@ -6,26 +6,31 @@ publish = "public"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV           = "production"
 HUGO_THEME         = "toha"
-HUGO_VERSION       = "0.77.0"
+HUGO_VERSION       = "0.150.0"
+NODE_VERSION       = "20"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
 
     [context.split1.environment]
     HUGO_ENV     = "production"
-    HUGO_VERSION = "0.77.0"
+    HUGO_VERSION = "0.150.0"
+    NODE_VERSION = "20"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
     [context.deploy-preview.environment]
-    HUGO_VERSION = "0.77.0"
+    HUGO_VERSION = "0.150.0"
+    NODE_VERSION = "20"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
     [context.branch-deploy.environment]
-    HUGO_VERSION = "0.77.0"
+    HUGO_VERSION = "0.160.0"
+    NODE_VERSION = "20"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+NODE_VERSION       = "20"
