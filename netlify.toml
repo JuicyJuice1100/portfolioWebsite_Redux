@@ -6,7 +6,7 @@ publish = "public"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV           = "production"
 HUGO_THEME         = "toha"
-HUGO_VERSION       = "0.77.0"
+HUGO_VERSION       = "0.160.0"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
