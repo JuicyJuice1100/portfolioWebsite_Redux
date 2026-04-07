@@ -19,25 +19,6 @@
             --sidebar-bg: #f8fafc;
             --border-color: #e2e8f0;
             --header-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-
-        @media print {
-            .no-print { display: none !important; }
-            body { background: white !important; margin: 0; padding: 0; }
-            .resume-paper { 
-                box-shadow: none !important; 
-                margin: 0 !important; 
-                width: 100% !important; 
-                max-width: 100% !important; 
-                border: none !important; 
-                border-radius: 0 !important;
-            }
-            * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-            .section-block, .job, .project, .skills-block { page-break-inside: avoid; }
-            @page { margin: 0; size: A4; }
-        }
-
-        body { 
             font-family: 'Inter', sans-serif; 
             line-height: 1.5; 
             color: var(--text-main); 
@@ -281,7 +262,7 @@
 <div class="resume-paper">
   <header class="header">
     <button class="print-btn no-print" onclick="window.print()">
-        <i class="fas fa-download"></i> Download PDF
+        <i class="fas fa-print"></i> Print / Download
     </button>
     <h1>{{ .Site.Data.resume.name }}</h1>
     <div class="title">{{ .Site.Data.resume.title }}</div>
