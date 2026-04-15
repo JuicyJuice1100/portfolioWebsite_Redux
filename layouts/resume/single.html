@@ -256,6 +256,255 @@
             margin-left: 8px;
             vertical-align: middle;
         }
+
+        @media print {
+            @page {
+                margin: 2cm;
+                size: portrait;
+            }
+
+            * {
+                background: transparent !important;
+                color: black !important;
+                box-shadow: none !important;
+                text-shadow: none !important;
+                transition: none !important;
+            }
+
+            body {
+                background: white !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+                font-size: 11pt !important;
+                line-height: 1.5 !important;
+            }
+
+            .resume-paper {
+                max-width: 100% !important;
+                width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                min-height: auto !important;
+                border-radius: 0 !important;
+                display: block !important;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .header {
+                padding: 0 0 10pt 0 !important;
+                margin-bottom: 10pt !important;
+                background: none !important;
+                color: black !important;
+                border-bottom: 1.5pt solid #000 !important;
+                display: block !important;
+                text-align: left !important;
+            }
+
+            .header h1 {
+                font-size: 20pt !important;
+                font-weight: 800 !important;
+                margin: 0 !important;
+                color: black !important;
+            }
+
+            .header .title {
+                font-size: 12pt !important;
+                font-weight: 600 !important;
+                margin-bottom: 8pt !important;
+                color: #333 !important;
+                text-transform: none !important;
+                letter-spacing: normal !important;
+            }
+
+            .contact-info {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                gap: 10pt !important;
+                justify-content: flex-start !important;
+            }
+
+            .contact-item {
+                color: black !important;
+                font-size: 10pt !important;
+                text-decoration: none !important;
+                font-weight: 500 !important;
+            }
+
+            .contact-item i {
+                display: none !important;
+            }
+
+            .header::after {
+                display: none !important;
+            }
+
+            .content-grid {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 0 !important;
+            }
+
+            .left-column, .right-column {
+                display: contents !important;
+            }
+
+            .section-block {
+                margin-bottom: 25pt !important;
+                display: block !important;
+                border: none !important;
+            }
+
+            h3 {
+                font-size: 16pt !important;
+                font-weight: bold !important;
+                margin: 15pt 0 0 0 !important;
+                padding-bottom: 2pt !important;
+                border-bottom: 1pt solid #eaecef !important;
+                line-height: 1.1 !important;
+                text-transform: none !important;
+                letter-spacing: normal !important;
+                display: block !important;
+                color: black !important;
+            }
+            
+            h3::after {
+                display: none !important;
+            }
+
+            /* Skills - Markdown Style */
+            .skills-block {
+                margin-bottom: 6pt !important;
+                display: block !important;
+            }
+            .skills-category {
+                font-weight: bold !important;
+                font-size: 11pt !important;
+                text-transform: none !important;
+                letter-spacing: normal !important;
+                display: inline !important;
+            }
+            .skills-category::after {
+                content: ": " !important;
+            }
+            .skills-list {
+                display: inline !important;
+            }
+            .skill-tag {
+                display: inline !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                background: none !important;
+                border: none !important;
+                color: black !important;
+                font-weight: normal !important;
+            }
+            .skill-tag:not(:last-child)::after {
+                content: ", " !important;
+            }
+
+            /* Experience & Projects */
+            .job, .project {
+                margin-bottom: 20pt !important;
+                page-break-inside: avoid;
+            }
+            
+            .item-header {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: baseline !important;
+                margin-bottom: 2pt !important;
+            }
+
+            h4 {
+                font-size: 13pt !important;
+                font-weight: bold !important;
+                margin: 0 !important;
+                color: black !important;
+            }
+
+            .date {
+                display: inline !important;
+                font-size: 10pt !important;
+                color: #444 !important;
+                background: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                font-weight: 600 !important;
+            }
+
+            .company {
+                display: block !important;
+                font-weight: 600 !important;
+                color: #222 !important;
+                font-size: 11pt !important;
+                margin-bottom: 6pt !important;
+            }
+
+            .role-desc {
+                margin: 8pt 0 !important;
+                font-style: italic !important;
+                color: #333 !important;
+                font-weight: 500 !important;
+            }
+
+            /* Tech Pill simplification */
+            .tech-pill {
+                display: inline !important;
+                background: none !important;
+                color: #666 !important;
+                padding: 0 !important;
+                font-size: 10pt !important;
+                font-weight: normal !important;
+            }
+            .tech-pill::before {
+                content: " [" !important;
+            }
+            .tech-pill::after {
+                content: "]" !important;
+            }
+
+            ul {
+                margin: 6pt 0 0 18pt !important;
+                list-style-type: disc !important;
+            }
+            
+            li {
+                margin-bottom: 4pt !important;
+                padding-left: 0 !important;
+                color: black !important;
+            }
+            
+            li::before {
+                display: none !important;
+            }
+
+            /* Section Reordering */
+            #skills-section { order: 1 !important; }
+            #experience-section { order: 2 !important; }
+            #key-projects-section { order: 3 !important; }
+            #other-projects-section { order: 4 !important; }
+            #education-section { order: 5 !important; }
+
+            .edu-item {
+                margin-bottom: 12pt !important;
+            }
+            .edu-degree {
+                font-weight: bold !important;
+                font-size: 11pt !important;
+            }
+            .edu-uni {
+                color: #333 !important;
+                font-weight: 600 !important;
+            }
+            .edu-meta {
+                color: #555 !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -275,12 +524,12 @@
             <i class="fas fa-globe"></i> {{ .Site.Data.resume.website | replaceRE "https?://" "" }}
         </a>
         {{ if .Site.Data.resume.linkedin }}
-        <a href="{{ .Site.Data.resume.linkedin }}" target="_blank" class="contact-item">
+        <a href="{{ .Site.Data.resume.linkedin }}" target="_blank" class="contact-item no-print">
             <i class="fab fa-linkedin"></i> LinkedIn
         </a>
         {{ end }}
         {{ if .Site.Data.resume.github }}
-        <a href="{{ .Site.Data.resume.github }}" target="_blank" class="contact-item">
+        <a href="{{ .Site.Data.resume.github }}" target="_blank" class="contact-item no-print">
             <i class="fab fa-github"></i> GitHub
         </a>
         {{ end }}
@@ -289,7 +538,7 @@
 
   <main class="content-grid">
       <aside class="left-column">
-          <section class="section-block">
+          <section id="skills-section" class="section-block">
               <h3>Skills</h3>
               {{ range .Site.Data.resume.skills }}
               <div class="skills-block">
@@ -304,7 +553,7 @@
               {{ end }}
           </section>
 
-          <section class="section-block">
+          <section id="education-section" class="section-block">
               <h3>Education</h3>
               {{ range .Site.Data.resume.education }}
               <div class="edu-item">
@@ -318,7 +567,7 @@
       </aside>
       
       <div class="right-column">
-          <section class="section-block">
+          <section id="experience-section" class="section-block">
               <h3>Experience</h3>
               {{ range .Site.Data.resume.experience }}
               <div class="job">
@@ -339,7 +588,7 @@
               {{ end }}
           </section>
 
-          <section class="section-block">
+          <section id="key-projects-section" class="section-block">
               <h3>Key Projects</h3>
               {{ range .Site.Data.resume.professional_projects }}
               <div class="project">
@@ -359,7 +608,7 @@
           </section>
 
           {{ if .Site.Data.resume.other_projects }}
-          <section class="section-block">
+          <section id="other-projects-section" class="section-block">
               <h3>Other Projects</h3>
               {{ range .Site.Data.resume.other_projects }}
               <div class="project">
