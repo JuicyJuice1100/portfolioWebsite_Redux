@@ -26,7 +26,7 @@ buttons:
 # your projects
 projects:
 - name: boulderLeague
-  role: Creator
+  role: Personal Project
   summary: "A mobile application to maintain records of routes and track progress at the rock climbing gym. Leveraged Claude as an AI architectural assistant to rapidly prototype and construct a robust mobile application in Flutter."
   tags: ["personal", "flutter", "firebase", "claude"]
 
@@ -196,24 +196,24 @@ projects:
   tags: ["professional","AngularJS","University"]
 
 - name: Wedding Website
-  role: Creator
+  role: Personal Project
   repo: "https://github.com/JuicyJuice1100/juice-becky-wedding"
   summary: Created our wedding website using Ionic and Angular 9.
   tags: ["personal", "Angular", "ionic"]
 
 - name: Portfolio Website
-  role: Creator
+  role: Personal Project
   summary: "Modern, data-driven portfolio and professional resume built using Hugo and Antigravity-assisted development. Features automated PDF generation, premium CSS layouts, and architectural AI integration."
   tags: ["personal", "hugo", "antigravity"]
 
 - name: Personal Blog
-  role: Creator
+  role: Personal Project
   repo: "https://github.com/JuicyJuice1100/PersonalBlog"
   summary: Personal blog to help me stay on track when I was dieting and rock climbing.  This current website will be replacing that blog.
   tags: ["personal", "hugo"]
 
 - name: Personal Website
-  role: Creator
+  role: Personal Project
   repo: "https://github.com/JuicyJuice1100/PersonalWebsiteRedux"
   summary: Simple Portfolio website.  This current website will be replacing that portfolio website.
   tags: ["personal", "hugo"]
