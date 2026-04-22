@@ -17,22 +17,19 @@ experiences:
     # company overview
 
   positions:
-  - designation: Senior Software Engineer (AI Pilot & Champions Team)
+  - designation: Senior Software Engineer / Team Lead
     start: March 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Accelerated end-to-end ticket execution—spanning planning, architecture design, and implementation—reducing average delivery time from over a week down to 1-2 days (a ~70-80% increase in velocity) using Claude and AI-first workflows.
-    - Developed fine-tuned models specifically designed to optimize internal development workflows and automate repetitive engineering tasks.
-    - Served on the AI Champions team, driving corporate AI adoption by successfully onboarding the immediate engineering team and tracking cross-functional integrations.
-    - Spearheaded regular 'AI Wins' presentations to showcase technical optimizations, AI assistant tools, and best practices to leadership and other departments.
-    - Designed, wrote, tested, and implemented complex software features for Web UI and Mobile architectures.
-    - Reviewed functional and technical requirements, identifying potential system constraints and participating energetically in architecture discussions.
-    - Defined accurate estimates of work effort and leveraged agile methodologies to aid in sprint planning.
-    - Promoted application logging and infrastructure metrics as a first-class component of software delivery.
-    - Collaborated closely with QA, Product, and customer-facing teams to ensure a high standard of quality and strict customer focus at all times.
-    - Mentored junior engineers and interns to elevate code quality and team velocity.
+    - Lead high-impact organizational transformations, specializing in transitioning legacy SDLC processes from Waterfall to CI/CD through custom AI-driven agentic workflows.
+    - Architect and maintain a proprietary suite of Claude skills and plugins that automate the SDLC, reducing cycle times from 1 week to 1-2 days.
+    - Spearhead the 'AI Champions' program, onboarding 20+ engineers to advanced agentic workflows and serving as a company-wide consultant for GenAI integration.
+    - Formalized technical hiring protocols by designing interview rubrics and specific assessment questions to evaluate candidate proficiency in modern AI-assisted development.
+    - Hyper-accelerated feature delivery (~75% velocity increase) by implementing AI-first architectures across Mobile and Web platforms.
+    - Directly onboarded and mentored 5+ new hires and interns, establishing high-standard documentation and dev-readiness tracks.
+    - Collaborate with Product and QA leadership to translate complex requirements into scalable, agentic-ready technical specifications.
 
 - company:
     name: Rocket Central

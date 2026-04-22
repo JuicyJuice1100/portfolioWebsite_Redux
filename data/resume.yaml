@@ -1,13 +1,15 @@
 name: "Justin L. Espiritu"
-title: "Senior Software Engineer"
+title: "Senior Software Engineer / Team Lead"
 website: "https://justinlespiritu.com"
 email: "me@justinlespiritu.com"
 linkedin: "https://linkedin.com/in/justinlespiritu"
 github: "https://github.com/JuicyJuice1100"
 
 skills:
+  - category: "Technical Leadership"
+    items: "Engineering Management, SDLC Optimization, Mentorship, Tech Hiring, CI/CD Transformation, Cross-functional Leadership"
   - category: "AI & Modern Workflows"
-    items: "Claude Code, GitHub Copilot, Gemini, Antigravity, Prompt Engineering, AI-First Architecture"
+    items: "Claude Code, GitHub Copilot, Gemini, Agentic Workflows, AI-First Architecture, Prompt Engineering"
   - category: "Frameworks & Libraries"
     items: "React Native, React, MUI, Angular 2+, .Net Core, .Net Framework, MVC, Vue, NodeJS"
   - category: "Languages"
@@ -25,16 +27,17 @@ education:
 
 experience:
   - company: "Cotality"
-    role: "Senior Software Engineer (AI Pilot & Champions Team)"
+    role: "Senior Software Engineer / Team Lead"
     date: "March 2022 - Present"
-    description: "Spearheading the integration of GenAI workflows into the organization's software development lifecycle."
+    description: "Spearheading the transition from Waterfall to CI/CD through custom AI-driven agentic workflows and technical leadership."
     details:
-      - "Hyper-accelerated end-to-end delivery of complex features—spanning planning, architecture, and implementation—reducing average cycle time from 1 week to 1-2 days (a ~75% increase in velocity) via AI-first workflows."
-      - "Pioneered the corporate 'AI Champions' team, driving cross-functional AI adoption and onboarding 20+ engineers to advanced AI assistant tools."
-      - "Engineered fine-tuned models and custom automated workflows to eliminate repetitive engineering tasks and optimize internal DevOps processes."
-      - "Architected and implemented mission-critical features for high-traffic Web UI and Mobile platforms, ensuring strict scalability and performance standards."
-      - "Mentored 5+ junior engineers and interns on modern full-stack practices and AI-enhanced productivity frameworks."
-      - "Collaborated with Product and QA teams to translate ambiguous requirements into actionable, high-standard technical specifications."
+      - "Lead high-impact organizational transformations, specializing in transitioning legacy SDLC processes from Waterfall to CI/CD through custom AI-driven agentic workflows."
+      - "Architected and maintain a proprietary suite of Claude skills and plugins that automate the SDLC, reducing cycle times from 1 week to 1-2 days."
+      - "Pioneered the 'AI Champions' program, onboarding 20+ engineers to advanced agentic workflows and serving as a company-wide consultant for GenAI integration."
+      - "Formalized technical hiring protocols by designing interview rubrics and specific assessment questions to evaluate candidate proficiency in modern AI.assisted development."
+      - "Hyper-accelerated feature delivery (~75% velocity increase) by implementing AI-first architectures across Mobile and Web platforms."
+      - "Directly onboarded and mentored 5+ new hires and interns, establishing high-standard documentation and dev-readiness tracks."
+      - "Collaborate with Product and QA leadership to translate complex requirements into scalable, agentic-ready technical specifications."
 
   - company: "Rock Central"
     role: "Software Engineer"
