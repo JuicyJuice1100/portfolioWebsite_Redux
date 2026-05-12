@@ -31,189 +31,64 @@ projects:
   tags: ["personal", "flutter", "firebase", "claude"]
 
 - name: Dispatch
-  # logo: /images/sections/projects/toha.png
   role: Senior Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: "Designed and implemented a high-performance mobile application with real-time push notifications. Leveraged AI assistants (Claude, Copilot, Gemini) to architect the notification system and automate CI/CD workflows via Fastlane."
+  summary: "Mission-critical insurance claim platform processing **500–1,000+ daily tasks** and intelligently assigning them to **1,000+ field resources**. Leveraged AI assistants to architect the notification system and automate CI/CD workflows."
   tags: ["professional", "react native", ".net", "claude", "copilot", "gemini", "cotality"]
 
 - name: Resource Manager
-  # logo: /images/sections/projects/toha.png
   role: Senior Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Created, modified, maintained, designed Web UI for Resource Management Web App
+  summary: "Centralized resource management tool supporting internal company-wide operations. Led front-end UI development and automated deployments to multi-tier environments within Azure DevOps."
   tags: ["professional","angular", "cotality"]
 
-- name: Checkmate
-  # logo: /images/sections/projects/toha.png
-  role: Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Created, modified, and designed Web UI updates to the Checkmate App
-  tags: ["professional","angular","rock central"]
-
-- name: GIS
-  # logo: /images/sections/projects/kubernetes.png
-  role: Software Engineer
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Feature Story.  Helped create a custom service api that helps syncronize data between in house applications
-  tags: ["professional", ".net", "rock central"]
-
-- name: DEI
-  # logo: /images/sections/projects/kubernetes.png
-  role: Software Engineer
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Created, modified, deployed, and designed Web UI for DEI
-  tags: ["professional", ".net", "rock central"]
-
-- name: Checkmate
-  # logo: /images/sections/projects/toha.png
-  role: Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Created, modified, deployed, and designed Web UI for Checkmate App
-  tags: ["professional",".net","rock central"]
-
-- name: guySupport
-  # logo: /images/sections/projects/kubernetes.png
-  role: Software Engineer
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Created, modified, deployed, and designed Web UI for guySupport App
-  tags: ["professional", ".net", "rock central"]
-
-- name: Drive
-  # logo: /images/sections/projects/kubernetes.png
-  role: Software Engineer
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Created, modified, deployed, and designed Web UI for Drive App
-  tags: ["professional", ".net", "rock central"]
-
-- name: Allin Documentation Job
-  # logo: /images/sections/projects/toha.png
-  role: Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Created, modified, deployed, and designed automation job for Allin Documentation
-  tags: ["professional",".net","rock central"]
-
-- name: Allin 
-  # logo: /images/sections/projects/toha.png
-  role: Software Engineer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Created, modified, deployed, and designed Web UI for wordpress website
-  tags: ["professional",".net", "wordpress","rock central"]
-
 - name: Engineer On-Boarding Repo
-  # logo: /images/sections/projects/tensorflow.png
   role: Lead Developer
-  # timeline: "Jun 2018 - Present"
-  # repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: Created a repo that streamlined the onboarding process for new engineers.  
+  summary: "Architected a standardized onboarding system using Hugo and Git Pages, identifying critical setup pain points to **reduce engineer ramp-up time by 50%** (from 2 weeks to 1 week)."
   tags: ["professional", "hugo", "rock central", "github pages"]
 
-- name: Vendor Docs
-  role: Lead Developer
-  # timeline: "Jan 2017 - Nov 2017"
-  # url: "https://www.example.com"
-  summary: Updated custom app that allows users to check & update current NDA with clients.
-  tags: ["professional",".net", "rock central"]
-
-- name: Podracer's Engineer Blog
-  role: Lead Developer
-  summary: Created an internal blog to help update the business and other engineer teams what Podracer's is currently working on.
-  tags: ["professional", "hugo", "rock central"]
-
-- name: Portescap
-  # logo: /images/sections/projects/no-code.png
-  role: Developer
-  # timeline: "Oct 2019 - Dec 2019"
-  # repo: https://github.com/kelseyhightower/nocode
-  # url: "https://www.secura.net/"
-  summary: Created, designed, and cusomized a custom plugin for inRiver platform
-  tags: ["professional", ".net", "inriver", "aperture labs"]
-
-- name: Osborn
-  # logo: /images/sections/projects/no-code.png
-  role: Developer
-  # timeline: "Oct 2019 - Dec 2019"
-  # repo: https://github.com/kelseyhightower/nocode
-  # url: "https://www.secura.net/"
-  summary: Created a custom plugin for inRiver platform
-  tags: ["professional", ".net", "inriver", "aperture labs"]
-
-- name: Secura
-  # logo: /images/sections/projects/no-code.png
-  role: Developer
-  # timeline: "Oct 2019 - Dec 2019"
-  # repo: https://github.com/kelseyhightower/nocode
-  # url: "https://www.secura.net/"
-  summary: Helped rewrite and create customization for Secura's front facing application in Epi Server.
-  tags: ["professional", ".net", "aperture labs"]
-
-- name: CSP
-  # logo: /images/sections/projects/kubernetes.png
-  role: Developer
-  # timeline: "March 2018 - Present"
-  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Created, modified, and deployed package for nopCommerce
-  tags: ["professional", ".net", "nopCommerce", "aperture labs"]
+- name: Checkmate
+  role: Software Engineer
+  summary: "Legacy system migration orchestrating massive production deployments with zero downtime via Azure DevOps for critical business-critical workflows."
+  tags: ["professional",".net","rock central"]
 
 - name: Arbor Day Foundation
-  # logo: /images/sections/projects/toha.png
   role: Developer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
   url: "https://shop.arborday.org/"
-  summary: Helped rewrite and create customization for Arbor Day Foundation e-commerce website.
+  summary: "High-traffic E-commerce platform processing **10,000+ orders during peak seasonal periods**. Integrated IPGeolocation APIs and Google Analytics for advanced business telemetry."
   tags: ["professional",".net", "nopCommerce", "aperture labs"]
 
 - name: Advising Worksheet App
-  # logo: /images/sections/projects/toha.png
   role: Lead Developer
-  # timeline: "Jun 2019 - Present"
-  # repo: https://github.com/hossainemruz/toha
-  # url: "https://shop.arborday.org/"
-  summary: Developed a web app to streamline the advisor form for Advisors at the University of Wisconsin - Oshkosh
+  summary: "Full-scale rewrite of a graduation planning tool for the University of Wisconsin - Oshkosh, utilized by **all university advisors** to manage plans for **thousands of students**."
   tags: ["professional","AngularJS","University"]
+
+- name: Vendor Docs
+  role: Lead Developer
+  summary: "Updated custom application for NDA tracking; authored comprehensive unit tests extending application coverage to **85%+** and refactored core business logic for new data models."
+  tags: ["professional",".net", "rock central"]
+
+- name: Secura
+  role: Developer
+  summary: "Helped rewrite and create deep admin customizations for Secura's front-facing application in Epi Server, significantly reducing content update times for administrators."
+  tags: ["professional", ".net", "aperture labs"]
+
+- name: inRiver PIM Extensions
+  role: Developer
+  summary: "Built custom data extensions for inRiver PIM to optimize product tracking and synchronization for catalogs containing **1,000+ SKUs**."
+  tags: ["professional", ".net", "inriver", "aperture labs"]
+
+- name: Portfolio Website
+  role: Personal Project
+  summary: "Modern, data-driven portfolio and professional resume built using Hugo and Antigravity-assisted development. Features automated PDF generation and premium, metric-heavy layouts."
+  tags: ["personal", "hugo", "antigravity"]
 
 - name: Wedding Website
   role: Personal Project
   repo: "https://github.com/JuicyJuice1100/juice-becky-wedding"
-  summary: Created our wedding website using Ionic and Angular 9.
+  summary: "Created a custom wedding guest interface using Ionic and Angular 9, featuring real-time RSVP tracking and event information."
   tags: ["personal", "Angular", "ionic"]
-
-- name: Portfolio Website
-  role: Personal Project
-  summary: "Modern, data-driven portfolio and professional resume built using Hugo and Antigravity-assisted development. Features automated PDF generation, premium CSS layouts, and architectural AI integration."
-  tags: ["personal", "hugo", "antigravity"]
 
 - name: Personal Blog
   role: Personal Project
   repo: "https://github.com/JuicyJuice1100/PersonalBlog"
-  summary: Personal blog to help me stay on track when I was dieting and rock climbing.  This current website will be replacing that blog.
-  tags: ["personal", "hugo"]
-
-- name: Personal Website
-  role: Personal Project
-  repo: "https://github.com/JuicyJuice1100/PersonalWebsiteRedux"
-  summary: Simple Portfolio website.  This current website will be replacing that portfolio website.
+  summary: "Personal progression blog for fitness and rock climbing. This data-driven approach eventually informed the architecture of the boulderLeague app."
   tags: ["personal", "hugo"]

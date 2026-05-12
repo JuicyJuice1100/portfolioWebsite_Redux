@@ -23,16 +23,16 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Lead high-impact organizational transformations, specializing in transitioning legacy SDLC processes from Waterfall to CI/CD through custom AI-driven agentic workflows.
-    - Architect and maintain a proprietary suite of Claude skills and plugins that automate the SDLC, reducing cycle times from 1 week to 1-2 days.
-    - Led the implementation and expansion of the 'AI Champions' program, onboarding engineers to advanced agentic workflows and serving as a company-wide consultant for GenAI integration.
-    - Formalized technical hiring protocols by designing interview rubrics and specific assessment questions to evaluate candidate proficiency in modern AI-assisted development.
-    - Hyper-accelerated feature delivery (~75% velocity increase) by implementing AI-first architectures across Mobile and Web platforms.
-    - Directly onboarded and mentored new hires and interns, establishing high-standard documentation and dev-readiness tracks.
-    - Collaborate with Product and QA leadership to translate complex requirements into scalable, agentic-ready technical specifications.
+    - Lead and mentor a team of 4+ engineers while driving the organizational shift from Waterfall to CI/CD, resulting in a ~75% increase in feature velocity (measured via Azure Boards cycle time).
+    - Architected and maintain a suite of 10+ custom Claude skills (Specify, Plan, Execute) that transformed the SDLC, reducing average feature turnaround from 1 week to 1–2 days.
+    - Serve as a de facto Scrum Master, facilitating daily stand-ups, retrospectives, and backlog grooming to maintain a high-performance, unblocked team environment.
+    - Lead development for Dispatch, a mission-critical insurance claim platform processing 500–1,000+ daily tasks and intelligently assigning them to a network of 1,000+ resources.
+    - Design and implement 2+ major and 10+ minor features per sprint across Web and Mobile, including a geotracking system for adjusters to automate real-time task status updates.
+    - Scaled an internal AI Champions training program to 20+ engineers and non-technical staff, standardizing agentic workflows to eliminate operational bottlenecks.
+    - Manage the full product lifecycle, prioritizing backlogs and technical debt to ensure consistent delivery of high-quality features and hotfixes.
 
 - company:
-    name: Rocket Central
+    name: Rock Central
     url: "https://rocketcentral.com/"
     # location: Dhaka Branch
     # company overview
@@ -45,10 +45,12 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Full Stack Development
-    - Configure, design, and devlop apps for internal & external use
-    - Collaborate with other engineers & associate engineers to solve issues
-    - Collaborate with busines & product owners to create stories and make changes needed by the business
+    - Acted as a Subject Matter Expert (SME) for multiple internal products across the Rocket Mortgage ecosystem, supporting mission-critical applications used by 1,000+ employees.
+    - Architected a standardized onboarding documentation system using Hugo and Git Pages, reducing new engineer ramp-up time by 50% (from 2 weeks to 1 week).
+    - Led front-end UI development and automated CI/CD deployments via Azure DevOps for the Resource Manager platform.
+    - Orchestrated large-scale production migrations for legacy .NET systems (Checkmate), ensuring high availability and zero-downtime transitions.
+    - Engineered a core logic refactor for VendorDocs, implementing a testing suite that increased unit test coverage to 85%+.
+    - Collaborated with business owners and "Guardians of Quality" to establish strict coding standards and translate complex requirements into actionable technical stories.
 
 - company:
     name: Aperture Labs LLC
@@ -58,10 +60,11 @@ experiences:
     start: Aug 2019
     end: Aug 2021
     responsibilities:
-    - Full Stack Development
-    - Configure, design, & develop e-commerce websites with nopCommerce
-    - Design & develope custom plugins for nopCommerce & EpiServer
-    - Design & Develop custom extension for inRiver PIM (Product Information Management)
+    - Engineered robust full-stack E-commerce solutions for national clients like the Arbor Day Foundation, processing 10,000+ orders during peak seasonal periods.
+    - Designed and implemented a custom reporting and data visualization module that reduced report generation and viewing time by 50% for administrative users.
+    - Built custom data extensions for inRiver PIM to optimize product tracking and synchronization for catalogs containing 1,000+ SKUs.
+    - Developed deep backend customizations for nopCommerce and EpiServer (Secura), including IP-based geolocation and automated business telemetry via Google Analytics.
+    - Worked within a tight-knit, 5-engineer team to deliver end-to-end features, from database schema design to frontend UI implementation.
 
 - company:
     name: Mercury Marine
@@ -73,11 +76,11 @@ experiences:
     start: January 2019
     end: July 2019
     responsibilities:
-    - Collaborate with local & remote team members in developing & executing Teamcenter solutions
-    - Configure teamcenter BMIDE, BOM Mangement, Workflows, Access control, Change Mangement, Dispatcher Configuration, & other Teamcenter Modules
-    - Customize Teamcenter using standard Teamcenter APIs
-    - Troubleshoot Teamcenter technical issues at various levels such as installation, deployment, & configuration
-    - Perform data modeling & data mapping process in assistance with business analysts & solution architects
+    - Orchestrated deep-level Teamcenter PLM solutions for a global manufacturing leader, configuring BMIDE, BOM Management, and complex Workflows to support large-scale operations.
+    - Streamlined change management and access control protocols, enhancing the reliability and traceability of technical data across distributed engineering teams.
+    - Performed complex data modeling and mapping to synchronize thousands of technical specifications, ensuring high-fidelity data migration during system deployments.
+    - Resolved critical configuration and infrastructure constraints, maintaining high system availability for a massive concurrent user base of engineers and designers.
+    - Partnered with solution architects to translate complex manufacturing requirements into scalable, automated PLM modules.
 
 - company:
     name: University of Wisconsin Oshkosh
@@ -89,9 +92,10 @@ experiences:
     start: March 2017
     end: December 2018
     responsibilities:
-    - Rewrote the Advising Worksheet, an application for advisors at the UARC (Under Graduate Advising Resource Center) & SSC (Student Success Center)
-    - Created AngularJS directive for developer to accelerate & simplify the process to create multiadd fields to forms
-    - Provided detailed documentation in Confluence for developer to use newly created directives & applications
+    - Lead developer for the full-scale rewrite of the Advising Worksheet, migrating the platform from Plone to AngularJS to radically improve user flow and processing speed.
+    - Developed mission-critical software utilized by 15+ professional advisors to manage academic graduation plans for thousands of students.
+    - Engineered a library of reusable AngularJS directives that standardized dynamic form creation and accelerated development for all subsequent engineers on the project.
+    - Authored comprehensive documentation in Confluence, establishing a high-standard technical foundation that ensured project continuity post-graduation.
 
 - company:
     name: University of Wisconsin Oshkosh
@@ -101,4 +105,6 @@ experiences:
     start: Jan 2017
     end: May 2017
     responsibilities:
-    - Created a program in Python 2 using the NLTK (Natural Language Tool Kit) library to gather dta on articles & create simple summaries on provided articles
+    - Developed an automated NLP application in Python leveraging the NLTK library to perform large-scale data extraction and text summarization.
+    - Implemented computational linguistics techniques to parse complex articles and generate concise summaries, significantly reducing manual analysis time.
+    - Synthesized information from diverse datasets, demonstrating early expertise in building AI-assisted tools for information retrieval and processing.
