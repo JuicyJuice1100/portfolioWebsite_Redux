@@ -31,6 +31,12 @@ experience:
     date: "March 2022 - Present"
     description: "Driving the organizational shift from Waterfall to CI/CD while serving as a de facto Scrum Master and AI-driven process pioneer."
     details:
+      - "Served as the Mobile Development Lead for the Dispatch application, owning the end-to-end design, implementation, and maintenance of a React Native app deployed to both the Google Play and Apple App Stores."
+      - "Managed mobile distribution and deployment pipelines using Fastlane, and testing distribution via Firebase."
+      - "Planned and executed a successful migration to Expo for deployment, leveraging Claude to generate golden templates of primary features."
+      - "Designed, implemented, and maintained 40+ .NET backend services (out of 42 deployable services), ensuring robust integration with agentic Claude workflows and regularly updating public APIs for direct client and front-end consumption."
+      - "Drove front-end development using React, implementing efficient data fetching and state management with React Query and Axios."
+      - "Built complex user interfaces leveraging Material-UI (MUI) for responsive tables and forms, and Bryntum for a massive, feature-rich scheduling UI."
       - "Lead and mentor a team of 4+ engineers, achieving a ~75% increase in feature velocity (measured via Azure Boards cycle time) through Agile transformation."
       - "Architected and maintain 10+ custom Claude skills (Specify, Plan, Execute) that reduced average feature turnaround from 1 week to 1–2 days."
       - "Facilitate daily stand-ups, retrospectives, and backlog grooming as a Scrum Master to maintain a high-performance, unblocked team environment."
