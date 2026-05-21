@@ -521,6 +521,11 @@
     <div class="title">{{ .Site.Data.resume.title }}</div>
     
     <div class="contact-info">
+        {{ if .Site.Data.resume.location }}
+        <span class="contact-item">
+            <i class="fas fa-map-marker-alt"></i> {{ .Site.Data.resume.location }}
+        </span>
+        {{ end }}
         <a href="mailto:{{ .Site.Data.resume.email }}" class="contact-item">
             <i class="fas fa-envelope"></i> {{ .Site.Data.resume.email }}
         </a>
