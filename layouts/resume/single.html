@@ -512,6 +512,10 @@
         <span>{{ .Site.Data.resume.location }}</span>
         <span>•</span>
         {{ end }}
+        {{ if .Site.Data.resume.phone }}
+        <span>{{ .Site.Data.resume.phone }}</span>
+        <span>•</span>
+        {{ end }}
         <span>{{ .Site.Data.resume.email }}</span>
         <span>•</span>
         <span>{{ .Site.Data.resume.website | replaceRE "https?://" "" }}</span>
