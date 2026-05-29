@@ -120,30 +120,29 @@
         .contact-item:hover { color: white; }
 
         .summary-box {
-            padding: 30px 60px 0;
-            margin-bottom: -10px;
+            padding: 25px 60px;
+            background: var(--sidebar-bg);
+            border-left: 4px solid var(--accent-color);
+            margin: 0;
         }
         .summary-text {
-            font-size: 1.1em;
+            font-size: 1.05em;
             color: var(--text-main);
             line-height: 1.6;
-            font-weight: 450;
-            border-left: 3px solid var(--accent-color);
-            padding-left: 20px;
+            font-weight: 500;
         }
 
         .content-grid {
             display: grid;
-            grid-template-columns: 32% 68%;
+            grid-template-columns: 280px 1fr;
+            gap: 0;
             flex: 1;
         }
-
         .left-column {
             background: var(--sidebar-bg);
-            padding: 40px 35px;
+            padding: 40px 30px;
             border-right: 1px solid var(--border-color);
         }
-
         .right-column {
             padding: 40px 50px;
         }
@@ -257,9 +256,21 @@
             vertical-align: middle;
         }
 
+
+        .print-only {
+            display: none !important;
+        }
+
         @media print {
+            .print-only {
+                display: block !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+
             @page {
-                margin: 2cm;
+                margin: 1.5cm;
                 size: portrait;
             }
 
@@ -276,8 +287,8 @@
                 padding: 0 !important;
                 margin: 0 !important;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-                font-size: 11pt !important;
-                line-height: 1.5 !important;
+                font-size: 10pt !important;
+                line-height: 1.4 !important;
             }
 
             .resume-paper {
@@ -291,230 +302,170 @@
                 display: block !important;
             }
 
-            .no-print {
-                display: none !important;
+            .print-header {
+                text-align: center;
+                margin-bottom: 15pt;
+                border-bottom: 1.5pt solid #000;
+                padding-bottom: 8pt;
             }
 
-            .header {
-                padding: 0 0 10pt 0 !important;
-                margin-bottom: 10pt !important;
-                background: none !important;
-                color: black !important;
-                border-bottom: 1.5pt solid #000 !important;
+            .print-header h1 {
+                font-size: 20pt;
+                font-weight: 800;
+                margin: 0 0 3pt 0;
+                color: black;
+                letter-spacing: -0.5px;
+                line-height: 1.1;
+            }
+
+            .print-header .title {
+                font-size: 11pt;
+                font-weight: 600;
+                color: #333;
+                margin-bottom: 6pt;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .print-contact-info {
+                font-size: 9pt;
+                color: #444;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 5pt;
+                font-weight: 500;
+            }
+
+            .ats-print-layout {
                 display: block !important;
-                text-align: left !important;
-            }
-
-            .header h1 {
-                font-size: 20pt !important;
-                font-weight: 800 !important;
-                margin: 0 !important;
-                color: black !important;
-            }
-
-            .header .title {
-                font-size: 12pt !important;
-                font-weight: 600 !important;
-                margin-bottom: 8pt !important;
-                color: #333 !important;
-                text-transform: none !important;
-                letter-spacing: normal !important;
-            }
-
-            .contact-info {
-                display: flex !important;
-                flex-wrap: wrap !important;
-                gap: 10pt !important;
-                justify-content: flex-start !important;
-            }
-
-            .contact-item {
-                color: black !important;
-                font-size: 10pt !important;
-                text-decoration: none !important;
-                font-weight: 500 !important;
-            }
-
-            .contact-item i {
-                display: none !important;
-            }
-
-            .header::after {
-                display: none !important;
-            }
-
-            .content-grid {
-                display: flex !important;
-                flex-direction: column !important;
-                gap: 0 !important;
-            }
-
-            .left-column, .right-column {
-                display: contents !important;
+                padding: 0 !important;
             }
 
             .section-block {
-                margin-bottom: 25pt !important;
-                display: block !important;
-                border: none !important;
+                margin-bottom: 15pt !important;
+                page-break-inside: avoid;
             }
 
             h3 {
-                font-size: 16pt !important;
-                font-weight: bold !important;
-                margin: 15pt 0 0 0 !important;
-                padding-bottom: 2pt !important;
-                border-bottom: 1pt solid #eaecef !important;
-                line-height: 1.1 !important;
-                text-transform: none !important;
-                letter-spacing: normal !important;
-                display: block !important;
+                font-size: 11pt !important;
+                font-weight: 700 !important;
                 color: black !important;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                border-bottom: 1pt solid #ccc !important;
+                padding-bottom: 2pt !important;
+                margin: 12pt 0 8pt 0 !important;
+                display: block !important;
             }
-            
+
             h3::after {
                 display: none !important;
             }
 
-            /* Skills - Markdown Style */
             .skills-block {
-                margin-bottom: 6pt !important;
-                display: block !important;
-            }
-            .skills-category {
-                font-weight: bold !important;
-                font-size: 11pt !important;
-                text-transform: none !important;
-                letter-spacing: normal !important;
-                display: inline !important;
-            }
-            .skills-category::after {
-                content: ": " !important;
-            }
-            .skills-list {
-                display: inline !important;
-            }
-            .skill-tag {
-                display: inline !important;
-                padding: 0 !important;
-                margin: 0 !important;
-                background: none !important;
-                border: none !important;
-                color: black !important;
-                font-weight: normal !important;
-            }
-            .skill-tag:not(:last-child)::after {
-                content: ", " !important;
+                margin-bottom: 5pt;
+                font-size: 9pt;
+                line-height: 1.35;
             }
 
-            /* Experience & Projects */
-            .job, .project {
-                margin-bottom: 20pt !important;
+            .skills-category {
+                font-weight: 700;
+                color: black;
+                text-transform: uppercase;
+                font-size: 8.5pt;
+            }
+
+            .skills-items-print {
+                color: #222;
+            }
+
+            .job-print, .project-print {
+                margin-bottom: 10pt;
                 page-break-inside: avoid;
             }
-            
-            .item-header {
-                display: flex !important;
-                justify-content: space-between !important;
-                align-items: baseline !important;
+
+            .item-header-print {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                margin-bottom: 1pt;
+            }
+
+            .role-company-print, .project-name-print, .edu-degree-print {
+                font-size: 10pt;
+                color: black;
+            }
+
+            .date-print {
+                font-size: 9pt;
+                color: #333;
+                font-weight: 600;
+            }
+
+            .role-desc-print {
+                margin: 3pt 0 !important;
+                font-style: italic;
+                color: #333;
+                font-size: 9pt;
+                font-weight: 500;
+            }
+
+            .details-list-print {
+                margin: 4pt 0 0 0 !important;
+                padding: 0 !important;
+                list-style: none !important;
+            }
+
+            .details-list-print li {
+                position: relative !important;
+                padding-left: 12pt !important;
                 margin-bottom: 2pt !important;
+                color: #111 !important;
+                font-size: 9pt;
+                line-height: 1.35;
             }
 
-            h4 {
-                font-size: 13pt !important;
-                font-weight: bold !important;
-                margin: 0 !important;
-                color: black !important;
-            }
-
-            .date {
-                display: inline !important;
-                font-size: 10pt !important;
-                color: #444 !important;
-                background: none !important;
-                padding: 0 !important;
-                margin: 0 !important;
-                font-weight: 600 !important;
-            }
-
-            .company {
-                display: block !important;
-                font-weight: 600 !important;
+            .details-list-print li::before {
+                content: "•" !important;
+                position: absolute !important;
+                left: 0 !important;
+                top: 0 !important;
                 color: #222 !important;
-                font-size: 11pt !important;
-                margin-bottom: 6pt !important;
+                display: inline-block !important;
             }
 
-            .role-desc {
-                margin: 8pt 0 !important;
-                font-style: italic !important;
-                color: #333 !important;
-                font-weight: 500 !important;
-            }
-
-            /* Tech Pill simplification */
-            .tech-pill {
-                display: inline !important;
-                background: none !important;
-                color: #666 !important;
-                padding: 0 !important;
-                font-size: 10pt !important;
-                font-weight: normal !important;
-            }
-            .tech-pill::before {
-                content: " [" !important;
-            }
-            .tech-pill::after {
-                content: "]" !important;
-            }
-
-            ul {
-                margin: 6pt 0 0 18pt !important;
-                list-style-type: disc !important;
-            }
-            
-            li {
-                margin-bottom: 4pt !important;
-                padding-left: 0 !important;
-                color: black !important;
-            }
-            
-            li::before {
-                display: none !important;
-            }
-
-            /* Section Reordering */
-            #skills-section { order: 1 !important; }
-            #experience-section { 
-                order: 2 !important; 
-                break-before: page !important;
-                margin-top: 0 !important;
-            }
-            #key-projects-section { order: 3 !important; }
-            #other-projects-section { order: 4 !important; }
-            #education-section { order: 5 !important; }
-
-            .edu-item {
+            .summary-print-block {
                 margin-bottom: 12pt !important;
+                page-break-inside: avoid;
             }
-            .edu-degree {
-                font-weight: bold !important;
-                font-size: 11pt !important;
+
+            .summary-text-print {
+                font-size: 9.5pt;
+                line-height: 1.4;
+                color: #222;
+                margin: 0;
+                font-weight: 500;
             }
-            .edu-uni {
-                color: #333 !important;
-                font-weight: 600 !important;
+
+            .edu-item-print {
+                margin-bottom: 8pt;
+                page-break-inside: avoid;
             }
-            .edu-meta {
-                color: #555 !important;
+
+            .edu-uni-print {
+                font-size: 9pt;
+                color: #222;
+                font-weight: 500;
             }
         }
     </style>
 </head>
 <body>
 <div class="resume-paper">
-  <header class="header">
-    <button class="print-btn no-print" onclick="window.print()">
+  <!-- Screen Layout: Header -->
+  <header class="header no-print">
+    <button class="print-btn" onclick="window.print()">
         <i class="fas fa-print"></i> Print / Download
     </button>
     <h1>{{ .Site.Data.resume.name }}</h1>
@@ -533,19 +484,55 @@
             <i class="fas fa-globe"></i> {{ .Site.Data.resume.website | replaceRE "https?://" "" }}
         </a>
         {{ if .Site.Data.resume.linkedin }}
-        <a href="{{ .Site.Data.resume.linkedin }}" target="_blank" class="contact-item no-print">
+        <a href="{{ .Site.Data.resume.linkedin }}" target="_blank" class="contact-item">
             <i class="fab fa-linkedin"></i> LinkedIn
         </a>
         {{ end }}
         {{ if .Site.Data.resume.github }}
-        <a href="{{ .Site.Data.resume.github }}" target="_blank" class="contact-item no-print">
+        <a href="{{ .Site.Data.resume.github }}" target="_blank" class="contact-item">
             <i class="fab fa-github"></i> GitHub
         </a>
         {{ end }}
     </div>
   </header>
 
-  <main class="content-grid">
+  {{ if .Site.Data.resume.summary }}
+  <div class="summary-box no-print">
+      <div class="summary-text">{{ .Site.Data.resume.summary }}</div>
+  </div>
+  {{ end }}
+
+  <!-- Print Layout: Header -->
+  <header class="print-header print-only">
+    <h1>{{ .Site.Data.resume.name }}</h1>
+    <div class="title">{{ .Site.Data.resume.title }}</div>
+    <div class="print-contact-info">
+        {{ if .Site.Data.resume.location }}
+        <span>{{ .Site.Data.resume.location }}</span>
+        <span>•</span>
+        {{ end }}
+        <span>{{ .Site.Data.resume.email }}</span>
+        <span>•</span>
+        <span>{{ .Site.Data.resume.website | replaceRE "https?://" "" }}</span>
+        {{ if .Site.Data.resume.linkedin }}
+        <span>•</span>
+        <span>{{ .Site.Data.resume.linkedin | replaceRE "https?://(www\\.)?" "" }}</span>
+        {{ end }}
+        {{ if .Site.Data.resume.github }}
+        <span>•</span>
+        <span>{{ .Site.Data.resume.github | replaceRE "https?://(www\\.)?" "" }}</span>
+        {{ end }}
+    </div>
+  </header>
+
+  {{ if .Site.Data.resume.summary }}
+  <section class="section-block summary-print-block print-only">
+      <p class="summary-text-print">{{ .Site.Data.resume.summary }}</p>
+  </section>
+  {{ end }}
+
+  <!-- Screen Layout: Sections -->
+  <main class="content-grid no-print">
       <aside class="left-column">
           <section id="skills-section" class="section-block">
               <h3>Skills</h3>
@@ -638,6 +625,97 @@
           {{ end }}
       </div>
   </main>
+
+  <!-- Print Layout: Sections (Linear, ATS-friendly DOM order) -->
+  <main class="ats-print-layout print-only">
+      <!-- 1. Skills (moved up to fill first-page whitespace) -->
+      <section id="skills-section-print" class="section-block">
+          <h3>Skills</h3>
+          {{ range .Site.Data.resume.skills }}
+          <div class="skills-block">
+              <span class="skills-category">{{ .category }}:</span>
+              <span class="skills-items-print">{{ .items }}</span>
+          </div>
+          {{ end }}
+      </section>
+
+      <!-- 2. Experience -->
+      <section id="experience-section-print" class="section-block">
+          <h3>Experience</h3>
+          {{ range .Site.Data.resume.experience }}
+          <div class="job-print">
+              <div class="item-header-print">
+                  <div class="role-company-print"><strong>{{ .role }}</strong> at <strong>{{ .company }}</strong></div>
+                  <div class="date-print">{{ .date }}</div>
+              </div>
+              {{ if .description }}<p class="role-desc-print">{{ .description }}</p>{{ end }}
+              {{ if .details }}
+              <ul class="details-list-print">
+                  {{ range .details }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+              </ul>
+              {{ end }}
+          </div>
+          {{ end }}
+      </section>
+
+      <!-- 3. Key Projects -->
+      <section id="key-projects-section-print" class="section-block">
+          <h3>Key Projects</h3>
+          {{ range .Site.Data.resume.professional_projects }}
+          <div class="project-print">
+              <div class="item-header-print">
+                  <div class="project-name-print"><strong>{{ .name }}</strong> — <em>{{ .tech }}</em></div>
+              </div>
+              {{ if .description }}<p class="role-desc-print">{{ .description }}</p>{{ end }}
+              {{ if .details }}
+              <ul class="details-list-print">
+                  {{ range .details }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+              </ul>
+              {{ end }}
+          </div>
+          {{ end }}
+      </section>
+
+      <!-- 4. Other Projects -->
+      {{ if .Site.Data.resume.other_projects }}
+      <section id="other-projects-section-print" class="section-block">
+          <h3>Other Projects</h3>
+          {{ range .Site.Data.resume.other_projects }}
+          <div class="project-print">
+              <div class="item-header-print">
+                  <div class="project-name-print"><strong>{{ .name }}</strong> — <em>{{ .tech }}</em></div>
+              </div>
+              {{ if .description }}<p class="role-desc-print">{{ .description }}</p>{{ end }}
+              {{ if .details }}
+              <ul class="details-list-print">
+                  {{ range .details }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+              </ul>
+              {{ end }}
+          </div>
+          {{ end }}
+      </section>
+      {{ end }}
+
+      <!-- 5. Education -->
+      <section id="education-section-print" class="section-block">
+          <h3>Education</h3>
+          {{ range .Site.Data.resume.education }}
+          <div class="edu-item-print">
+              <div class="item-header-print">
+                  <div class="edu-degree-print"><strong>{{ .degree }}</strong> in {{ .major }}</div>
+                  <div class="date-print">{{ .date }}</div>
+              </div>
+              <div class="edu-uni-print">{{ .university }}</div>
+          </div>
+          {{ end }}
+      </section>
+  </main>
 </div>
 <script>
     if (window.location.search.indexOf('print=true') !== -1) {
@@ -646,3 +724,4 @@
 </script>
 </body>
 </html>
+
