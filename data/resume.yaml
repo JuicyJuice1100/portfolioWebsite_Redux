@@ -18,7 +18,7 @@ skills:
   - category: "Languages"
     items: "TypeScript, JavaScript, C#, HTML/CSS, Python, SQL, Java"
   - category: "Technologies & Cloud"
-    items: "Azure, Firebase, Fastlane, AWS, Circle CI, Docker, Git, Hugo, Google Analytics"
+    items: "GCP, Azure, Firebase, Fastlane, AWS, Circle CI, Docker, Git, Hugo, Google Analytics"
   - category: "Databases"
     items: "CosmosDB, MySQL, Microsoft SQL Server, Firebase"
 
