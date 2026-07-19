@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Senior Software Engineer / Team Lead & Agile Practitioner
+designation: Senior Software Engineer & AI Engineer
 # your company information
 company:
   name: Cotality
@@ -18,7 +18,7 @@ company:
 resume: "/resume"
 
 # a summary about you
-summary: 'Technical Lead and Agile Practitioner with a strong focus on **Scrum Master** methodologies and **AI-driven process optimization**. I specialize in transforming legacy Waterfall environments into high-velocity CI/CD workflows, leveraging agentic AI to protect and boost team delivery. With a proven track record of leading cross-functional teams and managing platforms that handle **1,000+ daily tasks**, I am committed to fostering high-performance engineering cultures through servant leadership, rigorous Agile execution, and unblocking technical bottlenecks.'
+summary: 'Technical Lead, Agile Practitioner, and AI workflows pioneer specializing in full-stack engineering and agentic software development lifecycle (SDLC) automation. I design and scale custom MCP servers, agentic tools, and automated PR/alert workflows that serve 1,000+ enterprise engineers, while serving as a Scrum Master to maintain high-velocity, low-burnout teams.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

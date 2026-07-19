@@ -31,12 +31,12 @@ projects:
   tags: ["personal", "flutter", "firebase", "claude"]
 
 - name: Dispatch
-  role: Senior Software Engineer
+  role: Senior Software Engineer & AI Engineer
   summary: "Mission-critical insurance claim platform processing **500–1,000+ daily tasks** and intelligently assigning them to **1,000+ field resources**. Leveraged AI assistants to architect the notification system and automate CI/CD workflows."
   tags: ["professional", "react native", ".net", "claude", "copilot", "gemini", "cotality"]
 
 - name: Resource Manager
-  role: Senior Software Engineer
+  role: Senior Software Engineer & AI Engineer
   summary: "Centralized resource management tool supporting internal company-wide operations. Led front-end UI development and automated deployments to multi-tier environments within Azure DevOps."
   tags: ["professional","angular", "cotality"]
 
